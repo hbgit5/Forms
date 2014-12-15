@@ -1,0 +1,65 @@
+
+
+
+#main-container {
+    position:absolute;
+    width:800px;
+    height:600px;
+    background:#E05A5C;
+    color:white;
+    font-family:arial;
+}
+
+#header-container {
+    position:relative;
+    width:700px;
+    margin-left:auto;
+    margin-right:auto;
+    height:48%
+    
+}
+
+#form-container {
+    position:relative;
+    width:700px;
+    margin-left:auto;
+    margin-right:auto;
+    height:48%
+}
+
+#name {
+    p
+}
+
+.row {
+    adding:5px;
+    margin:5px;
+   
+}
+
+input {
+     height:30px;
+     width:300px;
+    padding:5px;
+    margin: 5px;
+}
+
+#SSN {
+    width:150px;
+}
+
+#submit_button {
+    position:relative;
+    float:right;
+    width:150px;
+    height:40px;
+    background-color:#BD1E31;
+    margin-right:42px;
+    color:white;
+
+}
+
+#data {
+    margin-left:10px;
+    margin-bottom:25px;
+}

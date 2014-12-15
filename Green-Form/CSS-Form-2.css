@@ -1,0 +1,236 @@
+
+
+body {
+
+
+    position: absolute;
+
+
+    width: 500px;
+
+
+    height: 500px;
+
+
+    border: 1px solid grey;
+
+
+    background: #f7f7f7;
+
+
+    font-family: "arial";
+
+
+    border-radius: 8px;
+
+
+}
+
+
+h1 {
+
+
+    font-size: 20px;
+
+
+    margin-bottom: 2px;
+
+
+    padding-top: 20px;
+
+
+    margin-left: 20px;
+
+
+}
+
+
+#header-box {
+
+
+    position: relative;
+
+
+    top: -15px;
+
+
+    width: 100%;
+
+
+    background-color: #78AB46;
+
+
+    color: white;
+
+
+    height: 90px;
+
+
+    margin: 0px;
+
+
+    border-radius: 8px 8px 0px 0px;
+
+
+}
+
+
+h2 {
+
+
+    font-size: 12px;
+
+
+    margin-left: 20px;
+
+
+    padding-top: -10px;
+
+
+}
+
+
+#contact-container {
+
+
+    margin-left: 20px;
+
+
+}
+
+
+label {
+
+
+    display: block;
+
+
+    width: 350px;
+
+
+    margin-bottom: -10px;
+
+
+}
+
+
+.row {
+
+
+    margin-bottom: 2px;
+
+
+    font-size: 13px;
+
+
+    color: #606060;
+
+
+}
+
+
+#name {
+
+
+    width: 400px;
+
+
+    height: 25px;
+
+
+}
+
+
+#email {
+
+
+    width: 400px;
+
+
+    height: 25px;
+
+
+}
+
+
+select {
+
+
+    width: 350px;
+
+
+    height: 25px;
+
+
+}
+
+
+#message {
+
+
+    width: 400px;
+
+
+    height: 50px;
+
+
+}
+
+
+#submit_button {
+
+
+    background-color: #9dc45f;
+
+
+    padding: 4px;
+
+
+    margin-top: 3px;
+
+
+    width: 75px;
+
+
+    color: white;
+    border-radius: 5px;
+    margin-top:15px;
+
+
+}
+
+
+#job-inquiry {
+
+
+    color: #666666;
+
+
+    width: 406px;
+
+
+    background-color: white;
+
+
+}
+
+
+form {
+
+
+    margin-left: auto;
+
+
+    margin-right: auto;
+
+
+}
+
+
+#subject {
+
+
+    width: 406px;
+
+
+}

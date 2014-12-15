@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+
+<head>
+    <link media="all" type="text" rel="stylesheet" href="CSS-Form-2.css" />
+</head>
+
+
+
+<body>
+    <div id="header-box">
+        <h1>Contact Form</h1>
+        <h2>Please fill all the texts in the fields.</h2>
+    </div>
+
+    <div id="contact-container">
+        <form class="input-form">
+
+            <div class="row">
+                <label for="name">Your Name:</label>
+                <br />
+                <input id="name" class="input" name="name" type="text" placeholder="Your Full Name" >
+                <br />
+            </div>
+            <div class="row">
+                <label for="email">Your email:</label>
+                <br />
+                <input id="email" class="input" name="email" type="text" placeholder="Valid Email Address" required>
+                <br />
+            </div>
+            <div class="row">
+                <label for="message">Your message:</label>
+                <br />
+                <textarea id="message" class="input" name="message" placeholder="Your Message to Us" required></textarea>
+                <br />
+            </div>
+            <div class="row">
+                <label for="subject">Subject:</label>
+                <br />
+                <select id="subject">
+                    <option value="Job Inquiry" id="job-inquiry" required>Job Inquiry</option>
+                </select>
+            </div>
+
+            <input id="submit_button" type="submit" value="Send" />
+        </form>
+        
+        
+
+
+    </div>
+            <script src='//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js'></script>
+
+        <script>
+   
+        function init() {
+            $('.input-form').submit(function () {
+                    var name_field = $('#name').val();
+                    var message_field = $('#message').val();
+                    var subject_field = $('#subject').val();
+
+                    if (name_field === "") {
+                        alert('Name cannot be empty-clown!');
+                        return false;
+
+                    }
+
+                    if (name_field.length < 3) {
+                        alert('Is that really your name?');
+                        return false;
+
+                    }
+                if(message_field === "") {
+                    alert('Seriously, we need some info!');
+                    return false;
+                }
+                if(subject_field === "") {
+                    alert('Please select something');
+                    return false;
+                }
+            });
+        }
+            
+        $(document).ready(init);
+            
+    </script>
+    
+</body>
+
+
+
+
+
